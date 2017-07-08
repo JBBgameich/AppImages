@@ -1,0 +1,10 @@
+app: Kaidan
+
+ingredients:
+  package: kaidan
+  dist: stretch
+  sources: 
+    - deb https://raw.githubusercontent.com/kaidanim/packages/master stretch main
+    - deb https://deb.debian.org/debian stretch main
+    - deb https://deb.debian.org/debian-security stretch/updates main
+    - deb http://deb.netrunner.com/dci/packages/netrunner netrunner-1706 frameworks qt5
